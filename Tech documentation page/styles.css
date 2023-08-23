@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+   color: #18181b;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+#navbar{
+    width: 20%;
+    border-right: 2px solid gray;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+    position: fixed;
+    height: 100vh;
+}
+
+#main-doc{
+    width: 80%;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+#navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    /* border-top: 2px solid rgb(170, 165, 165) ; */
+    display: block;
+    padding: 2px 0 4px 15px;
+    font-size: medium;
+    /* margin: 5px 0; */
+}   
+
+#navbar header{
+    color: #0b111a;
+    padding: 15px;
+    font-size: 24px;
+}
+
+#navbar a{
+    text-decoration: none;
+    border-top: 1px solid #6c6c74;
+    display: block;
+    padding: 8px 3px;
+}
+
+#navbar a:hover{
+    text-decoration: none;
+    color: rgb(4, 175, 237);
+}
+
+#navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar a:active{
+    text-decoration: underline;  
+    color: #0aacf7;  
+}
+
+header{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#Data_types dl dd li{
+    list-style-type: circle;
+}
+
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.main-section p{
+    color: #1c1c1d;
+    line-height: 5vh;
+    margin-left: 2%;
+}
+.main-section li{
+    color: #1c1c1d;
+    line-height: 6vh;
+    margin-left: 5%;
+}
+
+@media (max-width: 800px){
+    #navbar{
+        /* width: 100%; */
+        display: none;
+    }
+    #main-doc{
+        /* width: 100%; */
+        display: block;
+        margin-left: 5px;
+    }
+    /* .main-section{
+        width: 100%;
+        display: block;
+    } */
+    }
+  
+  
