@@ -17,6 +17,7 @@ body{
     justify-items: center;
     line-height: 30px;
     color: white;
+    overflow: initial;
 }
 
 #wrapper{
@@ -558,10 +559,12 @@ hr{
 footer{
     display: flex;
     margin-top: 15px;
+    text-align: center;
+    align-items: center;
 }
-footer li{
+footer .grid li{
     list-style-type: none;
-    margin-right: 60px;
+    margin-right: 100px;
 }
 footer a{
     color: rgb(255, 255, 255);
@@ -569,4 +572,13 @@ footer a{
     list-style-type: none;
     align-items: center;
     text-align: center;
+}
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#copyright{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
 }
